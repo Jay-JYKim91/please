@@ -432,7 +432,7 @@ p.caption {
     margin-right: 3px;
   }
   .portfolio_text_tags {
-    margin-bottom: 0rem;
+    /* margin-bottom: 0.5rem; */
   }
   .portfolio_tag {
     padding: 0.3rem 0.5rem 0.2rem 0.5rem;

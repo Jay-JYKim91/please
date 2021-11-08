@@ -119,6 +119,7 @@
 .portfolio_text_tags {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0.5rem;
 }
 .portfolio_tag {
   border: 1px solid;
@@ -431,9 +432,6 @@ p.caption {
     height: 16px;
     margin-right: 3px;
   }
-  .portfolio_text_tags {
-    margin-bottom: 0rem;
-  }
   .portfolio_tag {
     padding: 0.3rem 0.5rem 0.2rem 0.5rem;
   }
@@ -558,9 +556,6 @@ p.caption {
     width: 20px;
     height: 18px;
     margin-right: 5px;
-  }
-  .portfolio_text_tags {
-    margin-bottom: 0.5rem;
   }
   .portfolio_text_description .table td {
     padding: 0em 0.75em 0.75em 0;
