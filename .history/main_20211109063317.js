@@ -1,6 +1,6 @@
 // Progressive loading
 const observer = lozad('.lozad', {
-    rootMargin: '2000px 0px'
+    rootMargin: '1500px 0px'
   });
   observer.observe();
 
@@ -14,22 +14,20 @@ year.innerText = currentYear;
 const customOffset = document.getElementById('portfolio__custom').getBoundingClientRect().top + window.pageYOffset;
 const readymadeOffset = document.getElementById('portfolio__readymade').getBoundingClientRect().top + window.pageYOffset;
 const processOffset = document.getElementById('portfolio__education-process').getBoundingClientRect().top + window.pageYOffset;
-const finishOffset = document.querySelector('.about').getBoundingClientRect().top + window.pageYOffset;
+const finishOffset = document.querySelector('.about').getBoundingClientRect().top;
 
 console.log(customOffset);
-console.log(customOffset + window.pageYOffset);
 console.log(readymadeOffset);
-console.log(readymadeOffset + window.pageYOffset);
 console.log(processOffset);
-console.log(processOffset + window.pageYOffset);
 console.log(finishOffset);
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.documentElement.scrollTop > finishOffset) {
-    document.getElementById("menu_education-process").style.top = "-80px";
-  } else if (document.documentElement.scrollTop > processOffset) {
+  // if (document.documentElement.scrollTop < processOffset) {
+  //   document.getElementById("menu_education-process").style.top = "-80px";
+  // } else 
+  if (document.documentElement.scrollTop > processOffset) {
     document.getElementById("menu_education-process").style.top = "0";
   } else if (document.documentElement.scrollTop > readymadeOffset) {
     document.getElementById("menu_education-process").style.top = "-80px";

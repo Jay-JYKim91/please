@@ -1,6 +1,6 @@
 // Progressive loading
 const observer = lozad('.lozad', {
-    rootMargin: '2000px 0px'
+    rootMargin: '1500px 0px'
   });
   observer.observe();
 

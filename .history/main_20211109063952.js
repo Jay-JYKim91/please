@@ -1,6 +1,6 @@
 // Progressive loading
 const observer = lozad('.lozad', {
-    rootMargin: '2000px 0px'
+    rootMargin: '1500px 0px'
   });
   observer.observe();
 
@@ -11,10 +11,10 @@ let currentYear = now.getFullYear();
 year.innerText = currentYear;
 
 // 포트폴리오 메뉴 작은 버전
-const customOffset = document.getElementById('portfolio__custom').getBoundingClientRect().top + window.pageYOffset;
-const readymadeOffset = document.getElementById('portfolio__readymade').getBoundingClientRect().top + window.pageYOffset;
-const processOffset = document.getElementById('portfolio__education-process').getBoundingClientRect().top + window.pageYOffset;
-const finishOffset = document.querySelector('.about').getBoundingClientRect().top + window.pageYOffset;
+const customOffset = document.getElementById('portfolio__custom').getBoundingClientRect().top;
+const readymadeOffset = document.getElementById('portfolio__readymade').getBoundingClientRect().top;
+const processOffset = document.getElementById('portfolio__education-process').getBoundingClientRect().top;
+const finishOffset = document.querySelector('.about').getBoundingClientRect().top;
 
 console.log(customOffset);
 console.log(customOffset + window.pageYOffset);

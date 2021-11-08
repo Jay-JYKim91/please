@@ -11,23 +11,14 @@ let currentYear = now.getFullYear();
 year.innerText = currentYear;
 
 // 포트폴리오 메뉴 작은 버전
-const customOffset = document.getElementById('portfolio__custom').getBoundingClientRect().top + window.pageYOffset;
-const readymadeOffset = document.getElementById('portfolio__readymade').getBoundingClientRect().top + window.pageYOffset;
-const processOffset = document.getElementById('portfolio__education-process').getBoundingClientRect().top + window.pageYOffset;
-const finishOffset = document.querySelector('.about').getBoundingClientRect().top + window.pageYOffset;
-
-console.log(customOffset);
-console.log(customOffset + window.pageYOffset);
-console.log(readymadeOffset);
-console.log(readymadeOffset + window.pageYOffset);
-console.log(processOffset);
-console.log(processOffset + window.pageYOffset);
-console.log(finishOffset);
+const customOffset = document.getElementById('portfolio__custom').getBoundingClientRect().top;
+const readymadeOffset = document.getElementById('portfolio__readymade').getBoundingClientRect().top;
+const processOffset = document.getElementById('portfolio__education-process').getBoundingClientRect().top;
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.documentElement.scrollTop > finishOffset) {
+  if (document.documentElement.scrollTop < processOffset) {
     document.getElementById("menu_education-process").style.top = "-80px";
   } else if (document.documentElement.scrollTop > processOffset) {
     document.getElementById("menu_education-process").style.top = "0";
@@ -37,7 +28,7 @@ function scrollFunction() {
   } else if (document.documentElement.scrollTop > customOffset) {
     document.getElementById("menu_readymade").style.top = "-80px";
     document.getElementById("menu_custom").style.top = "0";
-  } else {
+  } else if  {
     document.getElementById("menu_custom").style.top = "-80px";
   }
 }
