@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
   let customOffset = document.getElementById('portfolio__custom').getBoundingClientRect().top + offSet;
   let readymadeOffset = document.getElementById('portfolio__readymade').getBoundingClientRect().top + offSet;
   let processOffset = document.getElementById('portfolio__education-process').getBoundingClientRect().top + offSet;
-  let finishOffset = document.querySelector('.about').getBoundingClientRect().top + offSet - 700;
+  let finishOffset = document.querySelector('.about').getBoundingClientRect().top + offSet - 1000;
 
   if (document.documentElement.scrollTop > finishOffset) {
     document.getElementById("menu_education-process").style.top = "-80px";
