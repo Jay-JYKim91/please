@@ -52,7 +52,7 @@
 }
 .portfolio_image_big .portfolio_image_name {
   position: absolute;
-  top: 15% !important;
+  top: 5% !important;
   left: 50%;
   width: 90%;
   transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@
   font-size: 0.7rem;
   border-radius: 3rem !important;
   background-image: linear-gradient(155deg, #ff9c82, #fd1a67);
-  margin: 0.2rem auto;
+  margin: 0.5rem auto;
   height: 1.3rem !important;
   padding: 0.1rem 0.8rem 0.2rem 0.8rem;
   transition: all 0.3s;
@@ -525,7 +525,7 @@ p.caption {
   .button.portfolio-introBtn {
     font-size: 1rem;
     border-radius: 3rem;
-    margin: 0.5rem auto;
+    margin: 0.2rem auto;
     height: 2rem !important;
     padding: 0.1rem 0.8rem !important;
   }

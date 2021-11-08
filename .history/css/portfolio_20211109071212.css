@@ -52,7 +52,7 @@
 }
 .portfolio_image_big .portfolio_image_name {
   position: absolute;
-  top: 15% !important;
+  top: 18% !important;
   left: 50%;
   width: 90%;
   transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@
   font-size: 0.7rem;
   border-radius: 3rem !important;
   background-image: linear-gradient(155deg, #ff9c82, #fd1a67);
-  margin: 0.2rem auto;
+  margin: 0.5rem auto;
   height: 1.3rem !important;
   padding: 0.1rem 0.8rem 0.2rem 0.8rem;
   transition: all 0.3s;
@@ -100,12 +100,13 @@
   margin-bottom: 1px;
 }
 .lock {
-  width: 0.7rem;
+  width: 0.9rem;
+  height: 1rem;
   margin-right: 0.3rem;
 }
 .private {
   font-size: 0.7rem;
-  margin-top: 0rem;
+  margin-top: 0.5rem;
 }
 .private span {
   color: var(--pink5);
@@ -319,15 +320,6 @@ p.caption {
     padding: 0rem 0.5rem 0.1rem 0.5rem !important;
     transition: all 0.3s;
   }
-  .lock {
-    width: 0.8rem;
-    height: 0.9rem;
-    margin-right: 0.3rem;
-  }
-  .private {
-    font-size: 0.7rem;
-    margin-top: 0.2rem;
-  }
   .tile.is-parent.is-4 {
     display: flex;
     width: 100%;
@@ -409,7 +401,6 @@ p.caption {
   }
   .private {
     font-size: 1rem;
-    margin-top: 0.3rem;
   }
   .portfolio_image_big .portfolio_image_name {
     top: 8% !important;
@@ -525,7 +516,7 @@ p.caption {
   .button.portfolio-introBtn {
     font-size: 1rem;
     border-radius: 3rem;
-    margin: 0.5rem auto;
+    margin: 0.2rem auto;
     height: 2rem !important;
     padding: 0.1rem 0.8rem !important;
   }
@@ -535,7 +526,7 @@ p.caption {
     margin-bottom: 2px;
   }
   .private {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: 0.5rem;
   }
   .tag-text {
