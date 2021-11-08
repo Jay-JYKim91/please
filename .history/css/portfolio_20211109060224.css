@@ -149,10 +149,9 @@
 .portfolio_tag img {
   width: 13px;
   height: 12px;
-  margin-right: 3px;
 }
 .tag-text {
-  /* vertical-align: initial; */
+  vertical-align: initial;
   font-size: 0.8rem;
 }
 .portfolio_text_description {
@@ -412,13 +411,12 @@ p.caption {
     width: auto;
   }
   .tag-text {
-    /* vertical-align: text-top; */
+    vertical-align: text-top;
     font-size: 1rem;
   }
   .portfolio_tag img {
     width: 18px;
     height: 16px;
-    margin-right: 3px;
   }
   .portfolio_tag {
     padding: 0.3rem 0.5rem 0.2rem 0.5rem;
@@ -526,7 +524,7 @@ p.caption {
     font-size: 1rem;
   }
   .tag-text {
-    /* vertical-align: text-bottom; */
+    vertical-align: text-bottom;
     font-size: 1.1rem;
   }
   .portfolio_image .tile.is-parent {
@@ -539,7 +537,6 @@ p.caption {
   .portfolio_tag img {
     width: 20px;
     height: 18px;
-    margin-right: 5px;
   }
   .portfolio_text_description .table td {
     padding: 0em 0.75em 0.75em 0;
