@@ -1,0 +1,10 @@
+.footer {
+  background-color: var(--gray1);
+  padding: var(--space-m) 0;
+  color: var(--gray7);
+}
+.footer span,
+.footer p {
+  margin-top: 0.3rem;
+  /* font-size: 0.8rem; */
+}

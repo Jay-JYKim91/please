@@ -1,0 +1,29 @@
+.intro {
+  margin: 0;
+  text-align: center;
+}
+/* .intro .section-description {
+  font-size: 1.2rem;
+} */
+.button.is-large.cta-main {
+  padding: 0.5rem 2rem;
+  height: 40px;
+}
+@media screen and (min-width: 769px) {
+  /* .intro .section-description {
+    font-size: 1.3rem;
+  } */
+  .button.is-large.cta-main {
+    padding: 0.5rem 2.5rem;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* .intro .section-description {
+    font-size: 1.5rem;
+  } */
+  .button.is-large.cta-main {
+    padding: 0.5rem 2.5rem;
+    height: 60px;
+  }
+}
