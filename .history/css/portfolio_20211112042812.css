@@ -1,5 +1,5 @@
 .portfolio {
-  padding: var(--space-m) 0;
+  padding-top: var(--space-m);
 }
 .portfolio article {
   margin-bottom: var(--space-m);
@@ -344,7 +344,7 @@
 
 @media screen and (min-width: 769px) {
   .portfolio {
-    padding: var(--space-l) 0;
+    padding-top: var(--space-l);
   }
   .portfolio_image {
     justify-content: space-between;
@@ -441,7 +441,7 @@
 
 @media screen and (min-width: 1024px) {
   .portfolio {
-    padding: var(--space-xl) 0;
+    padding-top: var(--space-xl);
   }
   .portfolio article {
     margin-bottom: var(--space-l);

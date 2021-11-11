@@ -1,11 +1,8 @@
 .portfolio {
-  padding: var(--space-m) 0;
+  padding-top: var(--space-m);
 }
 .portfolio article {
   margin-bottom: var(--space-m);
-}
-.portfolio article:last-child {
-  margin-bottom: 0;
 }
 .tile.is-8.is-vertical.is-parent {
   width: 100%;
@@ -344,7 +341,7 @@
 
 @media screen and (min-width: 769px) {
   .portfolio {
-    padding: var(--space-l) 0;
+    padding-top: var(--space-l);
   }
   .portfolio_image {
     justify-content: space-between;
@@ -423,7 +420,7 @@
     font-size: var(--size-s2) !important;
   }
   .portfolio__ar {
-    padding: var(--space-m) var(--space-s);
+    padding: var(--space-m);
   }
   .portfolio__ar .game-format .column {
     padding: 1.5rem;
@@ -441,13 +438,10 @@
 
 @media screen and (min-width: 1024px) {
   .portfolio {
-    padding: var(--space-xl) 0;
+    padding-top: var(--space-xl);
   }
   .portfolio article {
     margin-bottom: var(--space-l);
-  }
-  .portfolio article:last-child {
-    margin-bottom: 0;
   }
   .portfolio-introBtn img {
     width: 22px;

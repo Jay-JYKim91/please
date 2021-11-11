@@ -467,7 +467,6 @@ html {
   min-width: 300px;
   overflow-x: hidden;
   overflow-y: scroll;
-  -ms-overflow-style: none;
   text-rendering: optimizeLegibility;
   text-size-adjust: 100%;
 }

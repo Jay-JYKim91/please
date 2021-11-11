@@ -1,11 +1,8 @@
 .portfolio {
-  padding: var(--space-m) 0;
+  padding-top: var(--space-m);
 }
 .portfolio article {
   margin-bottom: var(--space-m);
-}
-.portfolio article:last-child {
-  margin-bottom: 0;
 }
 .tile.is-8.is-vertical.is-parent {
   width: 100%;
@@ -222,13 +219,13 @@
 }
 .custom-process-form img {
   width: 90%;
-  max-width: 80px;
+  max-width: 100px;
 }
 #mc_embed_signup {
   background: #f9f9f9;
   clear: left;
   font-family: var(--family-sans-serif) !important;
-  width: 15rem;
+  width: 20rem;
 }
 #mc_embed_signup form {
   padding: 0 !important;
@@ -264,14 +261,10 @@
   margin-top: 3rem;
 }
 .portfolio__ar .game-format .column {
-  padding: 1rem 0;
-  /* padding-top: 1rem;
-  padding-bottom: 1rem; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
-.game-format {
-  margin: 0 1rem;
-}
-.game-format .description-small {
+p.caption {
   color: var(--gray7);
 }
 .portfolio__ar .game-format .column-fill {
@@ -317,11 +310,9 @@
   .portfolio_image_small {
     width: 32%;
   }
-  #mc_embed_signup {
-    width: 20rem;
-  }
+
   .custom-process-form img {
-    width: 60%;
+    width: 70%;
   }
   .portfolio__custom-process .question {
     margin: 1rem 0;
@@ -336,15 +327,11 @@
   .portfolio__ar .game-format {
     display: flex;
   }
-  .portfolio__ar .game-format .column {
-    flex-basis: auto;
-    padding: 0;
-  }
 }
 
 @media screen and (min-width: 769px) {
   .portfolio {
-    padding: var(--space-l) 0;
+    padding-top: var(--space-l);
   }
   .portfolio_image {
     justify-content: space-between;
@@ -423,13 +410,11 @@
     font-size: var(--size-s2) !important;
   }
   .portfolio__ar {
-    padding: var(--space-m) var(--space-s);
+    padding: var(--space-m);
   }
   .portfolio__ar .game-format .column {
-    padding: 1.5rem;
-    /* padding-top: 1.5rem;
-    padding-bottom: 3rem; */
-    /* flex-basis: 0; */
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
   }
   .portfolio__ar .game-format .board img {
     width: 10rem;
@@ -441,13 +426,10 @@
 
 @media screen and (min-width: 1024px) {
   .portfolio {
-    padding: var(--space-xl) 0;
+    padding-top: var(--space-xl);
   }
   .portfolio article {
     margin-bottom: var(--space-l);
-  }
-  .portfolio article:last-child {
-    margin-bottom: 0;
   }
   .portfolio-introBtn img {
     width: 22px;
@@ -489,13 +471,10 @@
     padding: 0.7rem var(--space-xs) !important;
   }
   .portfolio__ar {
-    padding: var(--space-m) var(--space-s);
+    padding: var(--space-m) var(--space-l);
   }
   .portfolio__ar .game-format {
     margin-top: -0.5rem;
-  }
-  .portfolio__ar .game-format .column {
-    padding: 1.5rem;
   }
 }
 @media screen and (min-width: 1216px) {
@@ -507,13 +486,5 @@
   }
   #mc_embed_signup input.email {
     padding: 0.9rem var(--space-xs) !important;
-  }
-  .portfolio__ar {
-    padding: var(--space-m) var(--space-l);
-  }
-}
-@media screen and (min-width: 1441px) {
-  .portfolio__ar .game-format .column {
-    padding: 1.5rem 3rem 3rem 3rem;
   }
 }

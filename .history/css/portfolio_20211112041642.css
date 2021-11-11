@@ -1,11 +1,8 @@
 .portfolio {
-  padding: var(--space-m) 0;
+  padding-top: var(--space-m);
 }
 .portfolio article {
   margin-bottom: var(--space-m);
-}
-.portfolio article:last-child {
-  margin-bottom: 0;
 }
 .tile.is-8.is-vertical.is-parent {
   width: 100%;
@@ -264,12 +261,8 @@
   margin-top: 3rem;
 }
 .portfolio__ar .game-format .column {
-  padding: 1rem 0;
-  /* padding-top: 1rem;
-  padding-bottom: 1rem; */
-}
-.game-format {
-  margin: 0 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .game-format .description-small {
   color: var(--gray7);
@@ -344,7 +337,7 @@
 
 @media screen and (min-width: 769px) {
   .portfolio {
-    padding: var(--space-l) 0;
+    padding-top: var(--space-l);
   }
   .portfolio_image {
     justify-content: space-between;
@@ -423,7 +416,7 @@
     font-size: var(--size-s2) !important;
   }
   .portfolio__ar {
-    padding: var(--space-m) var(--space-s);
+    padding: var(--space-m);
   }
   .portfolio__ar .game-format .column {
     padding: 1.5rem;
@@ -441,13 +434,10 @@
 
 @media screen and (min-width: 1024px) {
   .portfolio {
-    padding: var(--space-xl) 0;
+    padding-top: var(--space-xl);
   }
   .portfolio article {
     margin-bottom: var(--space-l);
-  }
-  .portfolio article:last-child {
-    margin-bottom: 0;
   }
   .portfolio-introBtn img {
     width: 22px;
@@ -489,7 +479,7 @@
     padding: 0.7rem var(--space-xs) !important;
   }
   .portfolio__ar {
-    padding: var(--space-m) var(--space-s);
+    padding: var(--space-m) var(--space-l);
   }
   .portfolio__ar .game-format {
     margin-top: -0.5rem;
@@ -507,9 +497,6 @@
   }
   #mc_embed_signup input.email {
     padding: 0.9rem var(--space-xs) !important;
-  }
-  .portfolio__ar {
-    padding: var(--space-m) var(--space-l);
   }
 }
 @media screen and (min-width: 1441px) {
