@@ -319,7 +319,7 @@
   padding-bottom: 1rem; */
 }
 .game-format {
-  margin: 0 1rem !important;
+  margin: 0 1rem;
 }
 .game-format .description-small {
   color: var(--gray7);
